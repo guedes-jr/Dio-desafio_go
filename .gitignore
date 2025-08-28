@@ -1,0 +1,33 @@
+# Arquivos binários gerados pelo Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Diretórios de build
+bin/
+build/
+
+# Arquivos temporários do sistema
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos de dependências
+vendor/
+
+# Arquivos de cache do Go
+go.sum
+go.mod
+
+# Arquivos de saída de testes
+coverage.out
+
+#
