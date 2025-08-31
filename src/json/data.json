@@ -1,0 +1,31 @@
+{
+    "usuarios": [
+        {
+            "Nome": "Joao Guedes",
+            "Profissao": "programador",
+            "Idade": 30,
+            "Social": {
+                "facebook": "htts://...",
+                "twitter": "htts://..."
+            }
+        },
+        {
+            "Nome": "Sophia Guedes",
+            "Profissao": "professora",
+            "Idade": 25,
+            "Social": {
+                "facebook": "htts://...",
+                "twitter": "htts://..."
+            }
+        },
+        {
+            "Nome": "Noah Guedes",
+            "Profissao": "motorista",
+            "Idade": 21,
+            "Social": {
+                "facebook": "htts://...",
+                "twitter": "htts://..."
+            }
+        }
+    ]
+}
