@@ -24,8 +24,8 @@ build/
 vendor/
 
 # Arquivos de cache do Go
-go.sum
-go.mod
+#go.sum
+#go.mod
 
 # Arquivos de saída de testes
 coverage.out
