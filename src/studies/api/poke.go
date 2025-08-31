@@ -5,15 +5,20 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-	"os"
+	//"os"
 )
 
 func main() {
-	response, err := http.get("http://pokeapi.co/api/v2/pokedex/kanto")
+	response, err := http.Get("http://pokeapi.co/api/v2/pokedex/kanto")
 
 	if err != nil {
 		fmt.Print(err.Error())
 	}
 
-	responseData, err := ioutil.Read
+	responseData, err := ioutil.ReadAll(response.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	fmt.Print(string(responseData))
 }
